@@ -20,7 +20,7 @@ let total = totalArroz + totalErvilha + totalFeijao + totalMacarrao + totalRefri
 let voce
 let amigo
 
-if((total * 100) % 2 == 0){
+if((total) % 2 == 0){
     voce = (total - totalVinho)/2;
     amigo = (total - totalVinho)/2 + totalVinho;
 }else{
